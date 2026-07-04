@@ -1,0 +1,11 @@
+$kind: environment
+name: 'Customer Service - Local'
+values:
+  - key: baseUrl
+    value: 'http://localhost:8080'
+    enabled: true
+    secret: false
+  - key: customerId
+    value: ''
+    enabled: true
+    secret: false

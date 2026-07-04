@@ -1,0 +1,3 @@
+$kind: collection
+name: Customer Service
+description: API collection for the Customer microservice in the e-commerce platform.

@@ -1,0 +1,21 @@
+$kind: http-request
+method: PUT
+url: '{{baseUrl}}/api/v1/customer'
+order: 2000
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "id": "{{customerId}}",
+      "firstname": "John",
+      "lastname": "Smith",
+      "email": "john.smith@example.com",
+      "address": {
+        "street": "Broadway",
+        "houseNumber": "10",
+        "zipCode": "10002"
+      }
+    }
